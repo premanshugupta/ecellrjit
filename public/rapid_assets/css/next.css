@@ -1,0 +1,118 @@
+.brighten img {
+-webkit-filter: brightness(50%);
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-o-transition: all 1s ease;
+-ms-transition: all 1s ease;
+transition: all 1s ease;
+}
+
+.brighten img:hover {
+-webkit-filter: brightness(100%);
+}
+
+.shad{
+	-webkit-box-shadow: 10px 10px 0px 3px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 0px 3px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 0px 3px rgba(0,0,0,0.75);
+}
+
+.color img{
+filter: grayscale(100%);
+-webkit-filter: grayscale(100%);
+-webkit-transition: all 1s ease;
+}
+
+.color img:hover{
+filter: grayscale(0%);
+filter: gray;
+-webkit-filter: grayscale(0%);
+filter: none;
+transition: 1s ease;
+}
+
+.grow img{
+transition: 1s ease;
+}
+
+.grow img:hover{
+-webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+transition: 1s ease;
+}
+
+
+.modl{
+	text-decoration: none !important;
+}
+
+.mod{
+	font-size: 1.75rem;
+	font-weight: 700;
+	font-family: "Montserrat", sans-serif;
+	    margin: 0 0 20px 0;
+	    margin-bottom: 0;
+    color: #fff;
+}
+
+.m{
+   background: #d76526;
+}
+
+.visi{
+	padding: inherit;
+	color: #212529 !important;
+	font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    font-weight: 400;
+    line-height: 1.4;
+    font-family: "Montserrat", sans-serif;
+    color: #212529;
+    text-align: justify;
+    margin-left: 0px!important;	
+    text-align: justify;
+}
+
+.circle {
+  list-style-type: circle;
+}
+
+.re{
+	margin-left: 52px;
+	background-color: #d76526 !important;
+	border: 0px solid #d76526 !important;
+}
+.re:hover{
+      background-color: rgba(40,36,64,.15) !important;
+}
+
+.val{
+	margin-top: -39px;
+	margin-left: 67px !important;
+}
+
+
+.headi{
+	text-align: justify !important;
+
+	color: #c4d2cb !important;
+}
+
+.star{
+	margin-left: 112px;
+}
+
+
+.zoom {
+  padding: 50px;
+  background-color: transparent;
+  transition: transform .2s; /* Animation */
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
